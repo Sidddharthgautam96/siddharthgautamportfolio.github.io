@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(138, 126, 126);
+    width: 167px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sidebar nav{
+    padding: 2px;
+}
+.sidebar nav li{
+   list-style: none;
+   font-size: 25px;
+   padding: 30px ;
+}
+.main{
+    background-color: rgb(246, 245, 242);
+    width: 1200px;
+    
+}
+.container{
+    display: flex;
+    height: 650px;
+}
+.infocontainer{
+    /* background-color: purple; */
+    height: 384px;
+    width: 1022px;
+    margin: auto;
+    display: flex;
+    margin-top: 77px;
+    justify-content: space-around;
+
+
+}
+.Info{
+    display: flex;
+justify-content: center;
+    flex-direction: column;
+}
+.divPic img{
+    height: 350px; ;
+}
+.hello{
+    font-size: 65px;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+.name{
+    font-size: 40px;
+ 
+}
+.about{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+}
+
+.buttons button{
+    border-radius: 10px;
+    padding: 10px;
+
+}
+button:hover{
+    color: grey;
+    cursor: pointer;
+}
+.form{
+    margin-top: 109px;
+    margin-left: 34px;
+}
+.mb-3{
+    padding: 15px;
+}
+#exampleInputPassword1{
+    padding: 7px;
+    border-radius: 9px;
+    width: 320px;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.form-text{
+    font-size: 14px;;
+    color: rgb(137, 91, 181);
+
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size:18px;
+    margin-left: 65px;
+
+}
